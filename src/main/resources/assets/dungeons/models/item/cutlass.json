@@ -1,0 +1,29 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "dungeons:items/cutlass"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [61.5, 90, 3],
+			"translation": [0, 4.5, 5.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [61.5, -88, 3],
+			"translation": [0.25, 5.5, 5.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [20, 88, 0],
+			"translation": [2.5, 7, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-24, -108, -34],
+			"translation": [0.75, 6.25, 0.75]
+		},
+		"ground": {
+			"translation": [0, 5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

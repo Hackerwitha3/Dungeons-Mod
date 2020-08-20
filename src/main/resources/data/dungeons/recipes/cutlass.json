@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "  s",
+    " s ",
+    "l  "
+  ],
+  "key":
+  {
+    "s":
+    {
+      "tag": "forge:ingots/steel_ingot"
+    },
+
+    "l":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "dungeons:cutlass",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "   ",
+    "i i",
+    "isi"
+  ],
+  "key":
+  {
+    "s":
+    {
+      "tag": "forge:ingots/steel_ingot"
+    },
+
+    "i":
+    {
+      "item": "dungeons:iron_leather"
+    }
+  },
+  "result":
+  {
+    "item": "dungeons:gauntlets",
+    "count": 1
+  }
+}

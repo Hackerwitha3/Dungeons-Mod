@@ -1,0 +1,27 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "dungeons:items/deathcap_mushroom"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.75, 0.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -45, 0],
+			"translation": [-2.25, 4.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -45, 0],
+			"translation": [-2.25, 4.5, 0]
+		},
+		"ground": {
+			"translation": [0, 1.25, 0],
+			"scale": [0.8, 0.8, 0.8]
+		}
+	}
+}

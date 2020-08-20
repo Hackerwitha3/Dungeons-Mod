@@ -1,0 +1,23 @@
+{
+  "item.dungeons.light_feather": "Light Feather",
+  "item.dungeons.steel_ingot": "Steel Ingot",
+  "item.dungeons.iron_leather": "Iron Leather",
+  "item.dungeons.steel_leather": "Steel Leather",
+  "item.dungeons.cloth": "Cloth",
+  "item.dungeons.deathcap_mushroom": "Deathcap Mushroom",
+  "item.dungeons.dungeons_apple": "Dungeons Apple",
+  "item.dungeons.dungeons_bread": "Dungeons Bread",
+  "item.dungeons.nameless_blade": "Nameless Blade",
+  "item.dungeons.cutlass" : "Cutlass",
+  "item.dungeons.gauntlets": "Gauntlets",
+  "item.dungeons.fighters_bindings": "Fighter's Bindings",
+  "item.dungeons.scale_mail": "Scale Mail",
+  "item.dungeons.highland_armor_chestplate": "Highland Armor Chestplate",
+  "item.dungeons.highland_armor_helmet": "Highland Armor Helmet",
+  "block.dungeons.stained_grass": "Stained Grass",
+  "block.dungeons.stained_grass_sprouts": "Stained Grass Sprouts",
+  "block.dungeons.sandstone_bricks": "Sandstone Bricks",
+  "block.dungeons.orange_leaves": "Orange Leaves",
+  "block.dungeons.red_leaves": "Red Leaves",
+  "itemGroup.DungeonsCREATIVETAB": "Dungeons"
+}

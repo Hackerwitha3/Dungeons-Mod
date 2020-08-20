@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xxg",
+    "xxg",
+    "ggg"
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+
+    "g":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result":
+  {
+    "item": "dungeons:steel_ingot",
+    "count": 1
+  }
+}

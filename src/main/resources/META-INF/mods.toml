@@ -1,0 +1,49 @@
+modLoader="javafml" #mandatory
+loaderVersion="[31,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+
+issueTrackerURL="http://my.issue.tracker/" #optional
+
+[[mods]] #mandatory
+
+modId="dungeons" #mandatory
+
+version="1.16.1-1.0.8" #mandatory
+
+displayName="Dungeons Mod" #mandatory
+
+updateJSONURL="http://myurl.me/" #optional
+
+displayURL="https://www.planetminecraft.com/mod/minecraft-dungeons-mod-4624693/" #optional
+
+logoFile="dungeons_logo.png" #optional
+
+credits="Thanks to the Minecraft Dungeons and Minecraft!" #optional
+
+authors="Hacker_with_a_3" #optional
+
+description='''
+This mod adds some of the blocks, items,tools, and armor featured in Minecraft Dungeons to Minecraft!  I hope you enjoy this mod!
+
+IMPORTANT:
+THIS IS A BETA BUILD! There are possible bugs that will be fixed. New features will some out very frequently. This mod will be updated often.
+'''
+
+
+[[dependencies.examplemod]] #optional
+
+    modId="forge" #mandatory
+
+    mandatory=true #mandatory
+
+    versionRange="[31,)" #mandatory
+
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
