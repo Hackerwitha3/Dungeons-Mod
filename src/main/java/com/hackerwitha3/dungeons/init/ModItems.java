@@ -2,10 +2,7 @@ package com.hackerwitha3.dungeons.init;
 
 import com.hackerwitha3.dungeons.Dungeons;
 import com.hackerwitha3.dungeons.blocks.BlockItemBase;
-import com.hackerwitha3.dungeons.items.DeathcapMushroom;
-import com.hackerwitha3.dungeons.items.DungeonsApple;
-import com.hackerwitha3.dungeons.items.DungeonsBread;
-import com.hackerwitha3.dungeons.items.ItemBase;
+import com.hackerwitha3.dungeons.items.*;
 import com.hackerwitha3.dungeons.util.enums.ModArmorMaterial;
 import com.hackerwitha3.dungeons.util.enums.ModItemTier;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -22,7 +19,8 @@ public class ModItems {
 
 
     //Items ONLY
-    public static final RegistryObject<Item> LIGHT_FEATHER = ITEMS.register("light_feather", ItemBase::new);
+    public static final RegistryObject<LightFeather> LIGHT_FEATHER = ITEMS.register("light_feather",
+            () -> new LightFeather(new Item.Properties().group(Dungeons.TAB)));
 
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
 
