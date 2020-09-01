@@ -7,7 +7,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="dungeons" #mandatory
 
-version="1.16.1-1.0.8" #mandatory
+version="1.16.1-1.0.9" #mandatory
 
 displayName="Dungeons Mod" #mandatory
 
@@ -35,7 +35,7 @@ THIS IS A BETA BUILD! There are possible bugs that will be fixed. New features w
 
     mandatory=true #mandatory
 
-    versionRange="[31,)" #mandatory
+    versionRange="[30,)" #mandatory
 
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
