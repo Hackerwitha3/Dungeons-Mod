@@ -17,7 +17,6 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Dungeons.MOD_ID);
 
-
     //Items ONLY
     public static final RegistryObject<LightFeather> LIGHT_FEATHER = ITEMS.register("light_feather",
             () -> new LightFeather(new Item.Properties().group(Dungeons.TAB)));

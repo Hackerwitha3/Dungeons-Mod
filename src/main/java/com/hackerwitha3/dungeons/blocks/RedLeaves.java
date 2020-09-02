@@ -13,7 +13,6 @@ public class RedLeaves extends Block {
                 .sound(SoundType.PLANT)
                 .harvestLevel(1)
                 .harvestTool(ToolType.HOE)
-
                 .notSolid()
         );
     }

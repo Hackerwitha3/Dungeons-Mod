@@ -13,7 +13,6 @@ public class OrangeLeaves extends Block {
                 .sound(SoundType.PLANT)
                 .harvestLevel(1)
                 .harvestTool(ToolType.HOE)
-
                 .notSolid()
         );
     }
