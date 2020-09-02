@@ -5,3 +5,5 @@ This mod adds a few main things to Minecraft. This includes:
 -Many items and crafting recipes that use them.
 -A few weapons that come from the original game.
 -A few armor pieces that come from the original game.
+
+I hope you enjoy this mod!
