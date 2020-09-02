@@ -1,1 +1,1 @@
-This mod was created by Hacker_with_a_3.
+This mod was made by Hacker_with_a_3.
