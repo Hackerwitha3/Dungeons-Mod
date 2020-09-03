@@ -1,7 +1,7 @@
 package com.hackerwitha3.dungeons.init;
 
 import com.hackerwitha3.dungeons.Dungeons;
-import com.hackerwitha3.dungeons.blocks.*;
+import com.hackerwitha3.dungeons.objects.blocks.*;
 import net.minecraft.block.Block;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;

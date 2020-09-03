@@ -1,8 +1,10 @@
 package com.hackerwitha3.dungeons.init;
 
 import com.hackerwitha3.dungeons.Dungeons;
-import com.hackerwitha3.dungeons.blocks.BlockItemBase;
-import com.hackerwitha3.dungeons.items.*;
+import com.hackerwitha3.dungeons.objects.blocks.BlockItemBase;
+import com.hackerwitha3.dungeons.objects.items.*;
+import com.hackerwitha3.dungeons.objects.tools.Cutlass;
+import com.hackerwitha3.dungeons.objects.tools.NamelessBlade;
 import com.hackerwitha3.dungeons.util.enums.ModArmorMaterial;
 import com.hackerwitha3.dungeons.util.enums.ModItemTier;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -56,11 +58,11 @@ public class ModItems {
 
 
     //Tools ONLY
-    public static final RegistryObject<SwordItem> NAMELESS_BLADE = ITEMS.register("nameless_blade", () ->
-            new SwordItem(ModItemTier.CUTLASS, 6, -2.0F, new Item.Properties().group(Dungeons.TAB).setNoRepair())); //UNIQUE
+    public static final RegistryObject<NamelessBlade> NAMELESS_BLADE = ITEMS.register("nameless_blade", () ->
+            new NamelessBlade(ModItemTier.CUTLASS, 6, -2.0F, new Item.Properties().group(Dungeons.TAB).setNoRepair())); //UNIQUE
 
-    public static final RegistryObject<SwordItem> CUTLASS = ITEMS.register("cutlass", () ->
-            new SwordItem(ModItemTier.CUTLASS, 3, -2.0F, new Item.Properties().group(Dungeons.TAB)));
+    public static final RegistryObject<Cutlass> CUTLASS = ITEMS.register("cutlass", () ->
+            new Cutlass(ModItemTier.CUTLASS, 3, -2.0F, new Item.Properties().group(Dungeons.TAB)));
 
     public static final RegistryObject<SwordItem> GAUNTLETS = ITEMS.register("gauntlets", () ->
             new SwordItem(ModItemTier.IRON_L, 1, -0.2F, new Item.Properties().group(Dungeons.TAB)));
