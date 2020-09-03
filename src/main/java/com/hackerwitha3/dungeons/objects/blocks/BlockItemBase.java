@@ -1,4 +1,4 @@
-package com.hackerwitha3.dungeons.blocks;
+package com.hackerwitha3.dungeons.objects.blocks;
 
 import com.hackerwitha3.dungeons.Dungeons;
 import net.minecraft.block.Block;

@@ -1,8 +1,7 @@
-package com.hackerwitha3.dungeons.items;
+package com.hackerwitha3.dungeons.objects.items;
 
 import com.hackerwitha3.dungeons.Dungeons;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 
 public class ItemBase extends Item {
 

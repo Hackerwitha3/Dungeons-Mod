@@ -1,13 +1,13 @@
-package com.hackerwitha3.dungeons.blocks;
+package com.hackerwitha3.dungeons.objects.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 
-public class StainedGrass extends Block {
+public class StainedGrassSprouts extends Block {
 
-    public StainedGrass() {
+    public StainedGrassSprouts() {
         super(Block.Properties.create(Material.EARTH)
                 .hardnessAndResistance(0.6f, 0.6f)
                 .sound(SoundType.GROUND)

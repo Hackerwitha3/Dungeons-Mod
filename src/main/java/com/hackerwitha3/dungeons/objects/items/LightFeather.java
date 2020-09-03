@@ -1,4 +1,4 @@
-package com.hackerwitha3.dungeons.items;
+package com.hackerwitha3.dungeons.objects.items;
 
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
