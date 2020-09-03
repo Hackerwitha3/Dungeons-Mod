@@ -21,6 +21,8 @@ public class ModItems {
     public static final RegistryObject<LightFeather> LIGHT_FEATHER = ITEMS.register("light_feather",
             () -> new LightFeather(new Item.Properties().group(Dungeons.TAB)));
 
+
+
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
 
     public static final RegistryObject<Item> IRON_LEATHER = ITEMS.register("iron_leather", ItemBase::new);

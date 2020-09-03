@@ -18,6 +18,7 @@ public class LightFeather extends Item {
     public ActionResult<ItemStack> onItemRightClick(World worldIn, PlayerEntity playerIn, Hand handIn) {
         playerIn.addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, 30, 4));
         playerIn.addPotionEffect(new EffectInstance(Effects.SPEED, 10, 1));
+        playerIn.getCooldownTracker().setCooldown(this, 200);
         return super.onItemRightClick(worldIn, playerIn, handIn);
     }
 }
