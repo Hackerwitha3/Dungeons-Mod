@@ -10,7 +10,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 modId="dungeons" #mandatory
 
-version="1.16.1-1.0.9" #mandatory
+version="1.16.2-1.0.9" #mandatory
 
 displayName="Dungeons Mod" #mandatory
 
