@@ -4,13 +4,13 @@ import com.hackerwitha3.dungeons.Dungeons;
 import com.hackerwitha3.dungeons.objects.blocks.BlockItemBase;
 import com.hackerwitha3.dungeons.objects.items.*;
 import com.hackerwitha3.dungeons.objects.tools.Cutlass;
+import com.hackerwitha3.dungeons.objects.tools.FightersBindings;
+import com.hackerwitha3.dungeons.objects.tools.Gauntlets;
 import com.hackerwitha3.dungeons.objects.tools.NamelessBlade;
 import com.hackerwitha3.dungeons.util.enums.ModArmorMaterial;
 import com.hackerwitha3.dungeons.util.enums.ModItemTier;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,8 +22,6 @@ public class ModItems {
     //Items ONLY
     public static final RegistryObject<LightFeather> LIGHT_FEATHER = ITEMS.register("light_feather",
             () -> new LightFeather(new Item.Properties().group(Dungeons.TAB)));
-
-
 
     public static final RegistryObject<Item> STEEL_INGOT = ITEMS.register("steel_ingot", ItemBase::new);
 
@@ -64,11 +62,11 @@ public class ModItems {
     public static final RegistryObject<Cutlass> CUTLASS = ITEMS.register("cutlass", () ->
             new Cutlass(ModItemTier.CUTLASS, 3, -2.0F, new Item.Properties().group(Dungeons.TAB)));
 
-    public static final RegistryObject<SwordItem> GAUNTLETS = ITEMS.register("gauntlets", () ->
-            new SwordItem(ModItemTier.IRON_L, 1, -0.2F, new Item.Properties().group(Dungeons.TAB)));
+    public static final RegistryObject<Gauntlets> GAUNTLETS = ITEMS.register("gauntlets", () ->
+            new Gauntlets(ModItemTier.IRON_L, 1, -0.2F, new Item.Properties().group(Dungeons.TAB)));
 
-    public static final RegistryObject<SwordItem> FIGHTERS_BINDINGS = ITEMS.register("fighters_bindings", () ->
-            new SwordItem(ModItemTier.STEEL_L, 3, 0.0F, new Item.Properties().group(Dungeons.TAB).setNoRepair())); // UNIQUE
+    public static final RegistryObject<FightersBindings> FIGHTERS_BINDINGS = ITEMS.register("fighters_bindings", () ->
+            new FightersBindings(ModItemTier.STEEL_L, 3, 0.0F, new Item.Properties().group(Dungeons.TAB).setNoRepair())); // UNIQUE
 
 
     //Armor ONLY
