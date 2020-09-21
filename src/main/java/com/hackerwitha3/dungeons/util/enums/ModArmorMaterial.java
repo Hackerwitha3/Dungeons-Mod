@@ -15,6 +15,12 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
 
+    EVOCATION_ROBE_TYPE(Dungeons.MOD_ID + ":evocation_robe", 17, new int[]{1, 5, 3, 1}, 30,
+            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0F, () -> {
+        return Ingredient.fromItems(ModItems.CLOTH.get());
+    }, 0.25F),
+
+
     SCALE_MAIL_TYPE(Dungeons.MOD_ID + ":scale_mail", 17, new int[]{2, 7, 5, 2}, 22,
             SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 1.5F, () -> {
         return Ingredient.fromItems(ModItems.STEEL_INGOT.get());

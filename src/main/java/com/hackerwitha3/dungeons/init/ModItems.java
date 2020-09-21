@@ -1,6 +1,9 @@
 package com.hackerwitha3.dungeons.init;
 
 import com.hackerwitha3.dungeons.Dungeons;
+import com.hackerwitha3.dungeons.objects.armor.EvocationRobeChestplate;
+import com.hackerwitha3.dungeons.objects.armor.EvocationRobeHelmet;
+import com.hackerwitha3.dungeons.objects.armor.ScaleMail;
 import com.hackerwitha3.dungeons.objects.blocks.BlockItemBase;
 import com.hackerwitha3.dungeons.objects.items.*;
 import com.hackerwitha3.dungeons.objects.tools.Cutlass;
@@ -70,8 +73,15 @@ public class ModItems {
 
 
     //Armor ONLY
-    public static final RegistryObject<ArmorItem> SCALE_MAIL = ITEMS.register("scale_mail", () ->
-            new ArmorItem(ModArmorMaterial.SCALE_MAIL_TYPE, EquipmentSlotType.CHEST, new Item.Properties().group(Dungeons.TAB)));
+    public static final RegistryObject<ScaleMail> SCALE_MAIL = ITEMS.register("scale_mail", () ->
+            new ScaleMail(ModArmorMaterial.SCALE_MAIL_TYPE, EquipmentSlotType.CHEST, new Item.Properties().group(Dungeons.TAB)));
+
+    public static final RegistryObject<EvocationRobeHelmet> EVOCATION_ROBE_HELMET = ITEMS.register("evocation_robe_helmet", () ->
+            new EvocationRobeHelmet(ModArmorMaterial.EVOCATION_ROBE_TYPE, EquipmentSlotType.HEAD, new Item.Properties().group(Dungeons.TAB)));
+
+    public static final RegistryObject<EvocationRobeChestplate> EVOCATION_ROBE_CHESTPLATE = ITEMS.register("evocation_robe_chestplate", () ->
+            new EvocationRobeChestplate(ModArmorMaterial.EVOCATION_ROBE_TYPE, EquipmentSlotType.CHEST, new Item.Properties().group(Dungeons.TAB)));
+
 
     public static final RegistryObject<ArmorItem> HIGHLAND_ARMOR_CHESTPLATE = ITEMS.register("highland_armor_chestplate", () ->
             new ArmorItem(ModArmorMaterial.HIGHLAND_ARMOR_TYPE, EquipmentSlotType.CHEST, new Item.Properties().group(Dungeons.TAB)));
@@ -79,5 +89,4 @@ public class ModItems {
     public static final RegistryObject<ArmorItem> HIGHLAND_ARMOR_HELMET = ITEMS.register("highland_armor_helmet", () ->
             new ArmorItem(ModArmorMaterial.HIGHLAND_ARMOR_TYPE, EquipmentSlotType.HEAD, new Item.Properties().group(Dungeons.TAB)));
 
-
-}
+    }
