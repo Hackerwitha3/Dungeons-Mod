@@ -30,4 +30,8 @@ public class FightersBindings extends SwordItem{
         super.addInformation(stack, worldIn, tooltip, flagIn);
     }
 
+    @Override
+    public Rarity getRarity(ItemStack itemStack){
+        return Rarity.UNCOMMON;
+    }
 }

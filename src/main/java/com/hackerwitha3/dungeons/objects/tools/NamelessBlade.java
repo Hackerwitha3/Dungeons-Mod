@@ -4,6 +4,7 @@ import com.hackerwitha3.dungeons.util.helpers.KeyboardHelper;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Rarity;
 import net.minecraft.item.SwordItem;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.text.StringTextComponent;
@@ -29,4 +30,8 @@ public class NamelessBlade extends SwordItem {
         super.addInformation(stack, worldIn, tooltip, flagIn);
     }
 
+    @Override
+    public Rarity getRarity(ItemStack itemStack){
+        return Rarity.UNCOMMON;
+    }
 }
